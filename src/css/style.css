@@ -1,0 +1,121 @@
+*{
+  margin : 0;
+  padding:0;
+  box-sizing: border-box;
+ 
+}
+html {
+  background-image: url("../../public/fondo-3d-con-cubos-blancos.jpg");
+  /* background-position: center center;  Para centrar la imagen */
+  background-attachment: fixed;   /* Para que la imagen no haga scroll con la pagina */
+  background-repeat: no-repeat;   /* Evita la repetición de la imagen */
+  background-size: cover;         /* Escala la imagen para cubrir todo el fondo */
+}
+
+body {
+  min-width: 27.5rem;   /*27.5rem=440px*/
+  max-width: 62rem;     /*62rem=992px*/
+  padding: 0.625rem; /* 10px */
+
+}
+
+.mi-boton{
+  background-color: coral;
+  padding: 1rem ;     
+  border-radius: 10%;
+}
+
+/* =========================================== */
+/**/
+/* ItemListContainer.css */
+/**/
+/* =========================================== */
+
+.titulo-principal {
+  background-color: rgb(140, 162, 223);
+  color: white;
+  padding-top: .3125rem;
+  padding-bottom: .625rem;
+}
+
+.subtitulo-medio {
+  background-color: lightblue;
+  color: gray;
+
+}
+
+.subtitulo-inferior {
+  background-color: lightgray;
+  color: black;
+}
+
+
+/*   */
+.contenedor {
+  margin-top: 0.625rem; /* 10px */
+  /* color del backgrund */
+  background-color:  rgb(197, 198, 201); /* rgb(193, 248, 193); */
+  /* centramos el bloque */
+  margin-left: auto; /* Establece el margen izquierdo automático */
+  margin-right: auto; /* Establece el margen derecho automático */
+}
+
+
+/* =========================================== */
+/**/
+/* Estilos para NavBar                     */
+/**/
+/* =========================================== */
+.contenedorHeader {
+  border-top-left-radius: 0.625rem; /* 10px */
+  border-top-right-radius: 0.625rem; /* 10px */
+}
+
+
+/* =========================================== */
+/**/
+/* Estilos para el footer                      */
+/* En el curso html en scss ver _footer.scss   */
+/**/
+/* =========================================== */
+/*  el contenedor del footer  */
+/* como estilo usamos class(contenedor contenedorFooter) */
+.contenedorFooter {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 auto;
+  /* flex: 0 1 auto;     Mantiene el tamaño natural de cada contenedor */
+  border-bottom-left-radius: 0.625rem; /* 10px */
+  border-bottom-right-radius: 0.625rem; /* 10px */
+}
+
+.footerDivLogo {
+  width: 20%;
+  align-content: space-around;
+  text-align: left;
+  /* // Centra la imagen horizontalmente dentro de su contenedor */
+}
+.footerDivLogo img {
+  /* el icono de la izquierda del pie de pagina */
+  width: 5.5rem;      /* //88px */
+  border-radius: 0.625rem;  /* //10px */
+  opacity: 0.7;  /* // Ajusta el valor de opacidad entre 0 y 1 */
+  margin: 0.3rem;  /* // 4.8px */
+}
+
+.footerDivTexto {
+  text-align: left;
+  font-size: 0.75rem;  /* // 12px; */
+  max-width: 80%;
+}
+
+.imgHB {
+  /* el icono del banco en el H1 */
+  width: 3.125rem; /* 50px */
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+  border-radius: 0.625rem;
+}
