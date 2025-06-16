@@ -18,7 +18,7 @@ import { Link , useNavigate} from 'react-router-dom';
 const ItemDetail = ({detail}) => {
     if (!detail || Object.keys(detail).length === 0) {
         // Muestra un mensaje si el item no existe o mientras se carga el detalle
-        return  <p style={{color: 'red'}}><b>Estamos cargando el producto... </b>Si el tiempo de espera es excesivo el item es inexistente</p>; 
+        return  <p style={{color: 'red'}}><b>Estamos cargando el producto... </b></p>; 
     }   
 
     const {id,categoria,prodNro, nombre, precio, stock, imagen, descripcion} = detail;
