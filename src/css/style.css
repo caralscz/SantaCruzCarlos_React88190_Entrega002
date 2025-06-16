@@ -50,7 +50,14 @@ body {
   color: black;
 }
 
-
+/* Contenedor dentro del cual se muestran los "card" */
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: flex-start ;/*center*/
+}
 /*   */
 .contenedor {
   margin-top: 0.625rem; /* 10px */

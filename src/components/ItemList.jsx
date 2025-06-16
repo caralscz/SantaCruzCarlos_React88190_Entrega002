@@ -32,7 +32,7 @@ const ItemList = (props) => {
         <>
             <h3 > {nombreCateg}</h3>
             <hr />
-            <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px' , justifyContent: 'space-around', alignItems: 'center'}}>
+            <div className='contenedor-cards'>
                 {tbCategorias.map((prod) =><Item key={prod.id} losProductos={prod} />)}
         </div>
         </>
